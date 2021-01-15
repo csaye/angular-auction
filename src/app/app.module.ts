@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AuctionMaterialModule } from './auction-material/auction-material.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -26,7 +27,8 @@ import { CarouselComponent } from './carousel/carousel.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AuctionMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
