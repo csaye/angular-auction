@@ -10,6 +10,7 @@ import { SearchComponent } from './search/search.component';
 import { StarsComponent } from './stars/stars.component';
 import { ProductItemComponent } from './product-item/product-item.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     SearchComponent,
     StarsComponent,
     ProductItemComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
